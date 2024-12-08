@@ -1091,8 +1091,8 @@ importers:
         specifier: ^2.3.0
         version: 2.3.0
       content-tag:
-        specifier: ^2.0.1
-        version: 2.0.1(patch_hash=ktsray6trrtjm4aalso2qo7nka)
+        specifier: ^3.0.0
+        version: 3.0.0
       decorator-transforms:
         specifier: ^2.0.0
         version: 2.0.0(patch_hash=dre3eimzrhlapntwzf7qrwrwqi)(@babel/core@7.25.2)
@@ -3963,6 +3963,9 @@ packages:
   content-tag@2.0.1:
     resolution: {integrity: sha512-jxsETSDs5NbNwyiDuIp672fUMhUyu8Qxc5MOBOJOcgW/fQESI6o5K1LBDrnEE7Bh810a685lWEZHTF4jQYGEEw==}
 
+  content-tag@3.0.0:
+    resolution: {integrity: sha512-HxWPmF9hzehv5PV7TSK7QSzlVBhmwQA8NgBrXmL+fqXfM3L1r3ResAPzeiGbxra3Zw6U3gdhw3cIDJADQnuCVQ==}
+
   content-type@1.0.5:
     resolution: {integrity: sha512-nTjqfcBFEipKdXCv4YDQWCfmcLZKm81ldF0pAopTvyrFGVbcR6P/VAAd5G7N+0tTr8QqiU0tFadD6FK4NtJwOA==}
     engines: {node: '>= 0.6'}
@@ -4713,6 +4716,7 @@ packages:
   eslint@8.57.0:
     resolution: {integrity: sha512-dZ6+mexnaTIbSBZWgou51U6OmzIhYM2VcNdtiTtI7qPNZm35Akpr0f6vtw3w1Kmn5PYo+tZVfh13WrhpS6oLqQ==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
 
   esm@3.2.25:
@@ -12738,6 +12742,8 @@ snapshots:
   content-tag@1.2.2: {}
 
   content-tag@2.0.1(patch_hash=ktsray6trrtjm4aalso2qo7nka): {}
+
+  content-tag@3.0.0: {}
 
   content-type@1.0.5: {}
 
