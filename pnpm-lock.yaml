@@ -159,8 +159,8 @@ importers:
         specifier: ^1.1.2
         version: 1.1.2(@babel/core@7.25.2)
       '@types/jquery':
-        specifier: ^3.5.31
-        version: 3.5.31
+        specifier: ^3.5.32
+        version: 3.5.32
       '@types/qunit':
         specifier: ^2.19.10
         version: 2.19.10
@@ -249,8 +249,8 @@ importers:
         version: link:../truth-helpers
     devDependencies:
       '@types/jquery':
-        specifier: ^3.5.31
-        version: 3.5.31
+        specifier: ^3.5.32
+        version: 3.5.32
       '@types/qunit':
         specifier: ^2.19.10
         version: 2.19.10
@@ -385,8 +385,8 @@ importers:
         specifier: ^1.7.26
         version: 1.7.26
       '@types/jquery':
-        specifier: ^3.5.31
-        version: 3.5.31
+        specifier: ^3.5.32
+        version: 3.5.32
       '@types/qunit':
         specifier: ^2.19.10
         version: 2.19.10
@@ -656,8 +656,8 @@ importers:
         specifier: ^1.1.2
         version: 1.1.2(@babel/core@7.25.2)
       '@types/jquery':
-        specifier: ^3.5.31
-        version: 3.5.31
+        specifier: ^3.5.32
+        version: 3.5.32
       '@types/qunit':
         specifier: ^2.19.10
         version: 2.19.10
@@ -876,8 +876,8 @@ importers:
         specifier: ^1.1.2
         version: 1.1.2(@babel/core@7.25.2)
       '@types/jquery':
-        specifier: ^3.5.31
-        version: 3.5.31
+        specifier: ^3.5.32
+        version: 3.5.32
       '@types/qunit':
         specifier: ^2.19.10
         version: 2.19.10
@@ -955,8 +955,8 @@ importers:
         specifier: ^1.1.2
         version: 1.1.2(@babel/core@7.25.2)
       '@types/jquery':
-        specifier: ^3.5.31
-        version: 3.5.31
+        specifier: ^3.5.32
+        version: 3.5.32
       '@types/qunit':
         specifier: ^2.19.10
         version: 2.19.10
@@ -1034,8 +1034,8 @@ importers:
         specifier: ^1.1.2
         version: 1.1.2(@babel/core@7.25.2)
       '@types/jquery':
-        specifier: ^3.5.31
-        version: 3.5.31
+        specifier: ^3.5.32
+        version: 3.5.32
       '@types/qunit':
         specifier: ^2.19.10
         version: 2.19.10
@@ -2660,8 +2660,8 @@ packages:
   '@types/http-errors@2.0.4':
     resolution: {integrity: sha512-D0CFMMtydbJAegzOyHjtiKPLlvnm3iTZyZRSZoLq2mRhDdmLfIWOCYPfQJ4cu2erKghU++QvjcUjp/5h7hESpA==}
 
-  '@types/jquery@3.5.31':
-    resolution: {integrity: sha512-rf/iB+cPJ/YZfMwr+FVuQbm7IaWC4y3FVYfVDxRGqmUCFjjPII0HWaP0vTPJGp6m4o13AXySCcMbWfrWtBFAKw==}
+  '@types/jquery@3.5.32':
+    resolution: {integrity: sha512-b9Xbf4CkMqS02YH8zACqN1xzdxc3cO735Qe5AbSUFmyOiaWAbcpqh9Wna+Uk0vgACvoQHpWDg2rGdHkYPLmCiQ==}
 
   '@types/json-schema@7.0.15':
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
@@ -4713,6 +4713,7 @@ packages:
   eslint@8.57.0:
     resolution: {integrity: sha512-dZ6+mexnaTIbSBZWgou51U6OmzIhYM2VcNdtiTtI7qPNZm35Akpr0f6vtw3w1Kmn5PYo+tZVfh13WrhpS6oLqQ==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
 
   esm@3.2.25:
@@ -11163,7 +11164,7 @@ snapshots:
 
   '@types/http-errors@2.0.4': {}
 
-  '@types/jquery@3.5.31':
+  '@types/jquery@3.5.32':
     dependencies:
       '@types/sizzle': 2.3.8
 
